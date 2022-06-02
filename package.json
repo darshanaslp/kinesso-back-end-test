@@ -1,0 +1,19 @@
+{
+  "name": "kinesso-backend-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "~4.16.0",
+    "js-yaml": "^4.1.0",
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "mocha ./server/test/api.js --exit"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "chai-http": "^3.0.0"
+  }
+}
